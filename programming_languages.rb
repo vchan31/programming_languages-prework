@@ -3,6 +3,7 @@ def reformat_languages(languages)
 
 languages.each do |style, language|
   language.each do |language,attribute|
+    binding.pry
     new_hash[language] = {style:[]}.merge(attribute)
     end
 end
