@@ -5,12 +5,7 @@ languages.each do |style, language|
   language.each do |language,attribute|
     new_hash[language] = {style:[]}.merge(attribute)
     end
-    
-
-
 end
-
-
 
 languages.each do |style, language|
   language.each do |language,attribute|
